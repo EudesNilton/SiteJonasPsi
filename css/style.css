@@ -77,6 +77,7 @@ header{
 .apresentacao_img img{
   display: block;
   width: 100%;
+  padding: .875rem;
 }
 
 .servicos{
@@ -110,16 +111,172 @@ header{
 }
 
 .button button{
-    background-color: #2A7C6F;
-    color: #fff;
-    padding: 0.75rem 1.5rem;
-    border-radius: 25px;
-    border: none;
-  }
-  
-  .button button:hover{
-    background-color: #fff;
-    color: #2A7C6F;
-    border: 2px solid #2A7C6F;
-  }
+  background-color: #2A7C6F;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  border: none;
+}
+ 
+.button button:hover{
+  background-color: #fff;
+  color: #2A7C6F;
+  border: 2px solid #2A7C6F;
+}
 
+.atendimento{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.atendimento h2{
+  font-size: 2rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.container_atendimento{
+  display: flex;
+  flex-direction: column;
+  background-color: #EEFAF7;
+  margin: .875rem;
+}
+
+.container_tipo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container_tipo img{
+  width: 100%;
+  padding: .875rem;
+
+}
+
+.container_tipo h3{
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.container_tipo p{
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  font-size: 1.05rem;
+  font-family: 'Roboto', sans-serif;
+  color: #363636;
+}
+
+.depoimentos{
+  padding: 0.875rem;
+  width: 100%;
+}
+.depoimentos h2{
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.container_depoimentos{
+  border: 2px solid #2A7C6F;
+  padding: .875rem;
+  text-align: center;
+}
+
+.container_depoimentos h3{
+  font-size: 1.025rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding-bottom: .25rem;
+}
+
+.container_depoimentos h4{
+  font-size: .85rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding-bottom: .875rem;
+}
+
+.container_depoimentos p{
+  width: 100%;
+  text-align: center;
+  font-size: 1.05rem;
+  font-family: 'Roboto', sans-serif;
+  color: #363636;
+  padding-bottom: .875rem;
+}
+
+.sobre{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: .875rem;
+}
+
+.sobre .part1 img{
+  display: block;
+  width: 100%;
+  padding: .875rem;
+}
+
+.sobre .part2 h2{
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.sobre .part2 p{
+  width: 100%;
+  padding: .875rem;
+  text-align: center;
+  font-size: 1.05rem;
+  font-family: 'Roboto', sans-serif;
+  color: #363636;
+}
+
+.contato h2{
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.contato_img{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 2.125rem;
+}
+
+.contato_img a{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.contato_img a img{
+  width: 3.5rem;
+}
+
+
+footer{
+  width: 100%;
+  display: flex;
+  font-size: .825rem;
+  text-align: center;
+  padding: .875rem;
+}
+
+footer a{
+  color: #2A7C6F;
+}
