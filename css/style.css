@@ -23,8 +23,31 @@ header{
   background-color: #fff;
 }
 
+
+header .menu{
+  display: none;
+}
+header .menu_mobile{
+ display: flex;
+}
+
+header .menu_mobile nav{
+  display: none;
+}
+
+header .menu_mobile .abrir{
+  display: flex;
+}
+
 .logo{
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .875rem;
+}
+
+.logo p{
+  visibility: hidden;
 }
 
 .logo img{
@@ -218,7 +241,7 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: .875rem;
+  padding-bottom: 2rem;
 }
 
 .sobre .part1 img{
@@ -244,6 +267,10 @@ header{
   color: #363636;
 }
 
+.contato{
+  padding-bottom: 3rem;
+}
+
 .contato h2{
   font-size: 1.5rem;
   font-family: 'Lato', sans-serif;
@@ -265,13 +292,14 @@ header{
   text-align: center;
 }
 .contato_img a img{
-  width: 3.5rem;
+  width: 2.5rem;
 }
 
 
 footer{
   width: 100%;
   display: flex;
+  justify-content: center;
   font-size: .825rem;
   text-align: center;
   padding: .875rem;

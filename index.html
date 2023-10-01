@@ -1,160 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
 
-  <!--Styles-->
-  <link rel="stylesheet" href="./css/responsive.css">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-  <header>
-    <div class="logo">
-    <img src="./img/logo.png" alt="logo">
-    <p>Jonas Andrade - Psicólogo</p>
-  </div>
-<div style="display: none;" class="menu">
-  <nav>
-    <a href="#">Home</a>
-    <a href="#servicos">Serviços</a>
-    <a href="#atendimento">Tipos de atendimento</a>
-    <a href="#depoimentos">Depoimentos</a>
-    <a href="#sobremim">Sobre mim</a>
-    <a href="#perguntas">Perguntas frequentes</a>
-    <a href="#contato">Contato</a>
-
-  </nav>
-</div>
-<div style="display: none;" class="menu_mobile">
-  <nav>
-    <a href="#">Home</a>
-    <a href="#servicos">Serviços</a>
-    <a href="#atendimento">Tipos de atendimento</a>
-    <a href="#depoimentos">Depoimentos</a>
-    <a href="#sobremim">Sobre mim</a>
-    <a href="#perguntas">Perguntas frequentes</a>
-    <a href="#contato">Contato</a>
-
-  </nav>
-</div>
-  </header>
-
-  <main>
-  <section class="apresentacao">
-    <div class="apresentacao_principal"> 
-      <h1>Olá, como você está hoje?</h1>
-    
-      <p>
-        Sei que, se você chegou até aqui, está buscando por algum tipo de ajuda. Sou psicologo e estou aqui para te ajudar. 
-      </p>
-      <button>
-      <a href="">Vamos conversar?</a>
-    </button>
-    </div>
-
-    <div class="apresentacao_img">
-      <img src="./img/logoprincipal.png" alt="">
-    </div>
-
-  </section>
-
-  <section class="servicos" >
-    <h2 id="servicos">Serviços</h2>
-  <p>
-    Vamos construir juntos um ambiente acolhedor e livre de julgamentos para que você possa explorar seus pensamentos e sentimentos. Desde a descoberta de novas perspectivas até o enfrentamento de questões desafiadoras, estou comprometido em te ajudar a alcançar seus objetivos. Se você está pronto para cuidar de si e se dar essa chance, pode contar comigo!
-  </p>
-  </section>
-
-  <section class="button">
-    <button><a href="">
-      Clique aqui e agende sua sessão
-    </a></button>
-  </section>
-
-  <section class="atendimento" >
-    <h2 id="atendimento">Tipos de Atendimentos</h2>
-
-    <div class="container_atendimento">
-
-      <div class="container_tipo" >
-        <img src="https://lh4.googleusercontent.com/T7x09bkucvmtsqNSJ9WLm5y15S-DtFYQVcwNq-OtYCacSLK62rLoH8l1yCafckgS10TansdHekRyuFCj6GtfnJnlP5B2FYFbNz1oaOmEPprk60muA8q__U2sJ6aZ4NXM=w1280" alt="">
-        <h3>Psicoterapia individual</h3>
-        <p>
-          Atendimento a adolescentes, adultos e idosos em um espaço confidencial para explorar desafios, problemas e angústias, desenvolvendo estratégias de autocuidado e inteligência emocional.
-        </p>
+    <!--Styles-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./img/logo.png" alt="logo" />
+        <p>Jonas Andrade - Psicólogo</p>
       </div>
-      
-    </div>
-
-    <div class="container_atendimento">
-      
-      <div class="container_tipo" >
-        <img src="https://lh4.googleusercontent.com/T7x09bkucvmtsqNSJ9WLm5y15S-DtFYQVcwNq-OtYCacSLK62rLoH8l1yCafckgS10TansdHekRyuFCj6GtfnJnlP5B2FYFbNz1oaOmEPprk60muA8q__U2sJ6aZ4NXM=w1280" alt="">
-        <h3>Psicoterapia individual</h3>
-        <p>
-          Atendimento a adolescentes, adultos e idosos em um espaço confidencial para explorar desafios, problemas e angústias, desenvolvendo estratégias de autocuidado e inteligência emocional.
-        </p>
+      <div class="menu">
+        <nav>
+          <a href="#">Home</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#atendimento">Tipos de atendimento</a>
+          <a href="#depoimentos">Depoimentos</a>
+          <a href="#sobremim">Sobre mim</a>
+          <a href="#perguntas">Perguntas frequentes</a>
+          <a href="#contato">Contato</a>
+        </nav>
       </div>
 
-    </div>
-  </section>
+      <div class="menu_mobile" id="menu-mobile">
+        <button>Menu</button>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#atendimento">Tipos de atendimento</a>
+          <a href="#depoimentos">Depoimentos</a>
+          <a href="#sobremim">Sobre mim</a>
+          <a href="#perguntas">Perguntas frequentes</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
 
-  <section class="button">
-    <button>
-      <a href="">Agende sua sessão</a>
-    </button>
-  </section>
+    <main>
+      <section class="apresentacao">
+        <div class="apresentacao_principal">
+          <h1>Olá, como você está hoje?</h1>
 
-  <section class="depoimentos">
-    <h2 id="depoimentos">Depoimentos</h2>
-    <div class="container_depoimentos">
-      <h3>CA, Mulher, 52 anos</h3>
-      <h4>(Psicoterapia Onilne)</h4>
+          <p>
+            Sei que, se você chegou até aqui, está buscando por algum tipo de
+            ajuda. Sou psicologo e estou aqui para te ajudar.
+          </p>
+          <button>
+            <a href="">Vamos conversar?</a>
+          </button>
+        </div>
+
+        <div class="apresentacao_img">
+          <img src="./img/logoprincipal.png" alt="" />
+        </div>
+      </section>
+
+      <section class="servicos">
+        <h2 id="servicos">Serviços</h2>
+        <p>
+          Vamos construir juntos um ambiente acolhedor e livre de julgamentos
+          para que você possa explorar seus pensamentos e sentimentos. Desde a
+          descoberta de novas perspectivas até o enfrentamento de questões
+          desafiadoras, estou comprometido em te ajudar a alcançar seus
+          objetivos. Se você está pronto para cuidar de si e se dar essa chance,
+          pode contar comigo!
+        </p>
+      </section>
+
+      <section class="button">
+        <button><a href=""> Clique aqui e agende sua sessão </a></button>
+      </section>
+
+      <section class="atendimento">
+        <h2 id="atendimento">Tipos de Atendimentos</h2>
+
+        <div class="container_atendimento">
+          <div class="container_tipo">
+            <img
+              src="https://lh4.googleusercontent.com/T7x09bkucvmtsqNSJ9WLm5y15S-DtFYQVcwNq-OtYCacSLK62rLoH8l1yCafckgS10TansdHekRyuFCj6GtfnJnlP5B2FYFbNz1oaOmEPprk60muA8q__U2sJ6aZ4NXM=w1280"
+              alt=""
+            />
+            <h3>Psicoterapia individual</h3>
+            <p>
+              Atendimento a adolescentes, adultos e idosos em um espaço
+              confidencial para explorar desafios, problemas e angústias,
+              desenvolvendo estratégias de autocuidado e inteligência emocional.
+            </p>
+          </div>
+        </div>
+
+        <div class="container_atendimento">
+          <div class="container_tipo">
+            <img
+              src="https://lh4.googleusercontent.com/T7x09bkucvmtsqNSJ9WLm5y15S-DtFYQVcwNq-OtYCacSLK62rLoH8l1yCafckgS10TansdHekRyuFCj6GtfnJnlP5B2FYFbNz1oaOmEPprk60muA8q__U2sJ6aZ4NXM=w1280"
+              alt=""
+            />
+            <h3>Psicoterapia individual</h3>
+            <p>
+              Atendimento a adolescentes, adultos e idosos em um espaço
+              confidencial para explorar desafios, problemas e angústias,
+              desenvolvendo estratégias de autocuidado e inteligência emocional.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="button">
+        <button>
+          <a href="">Agende sua sessão</a>
+        </button>
+      </section>
+
+      <section class="depoimentos">
+        <h2 id="depoimentos">Depoimentos</h2>
+        <div class="container_depoimentos">
+          <h3>CA, Mulher, 52 anos</h3>
+          <h4>(Psicoterapia Onilne)</h4>
+          <p>
+            "No começo tive um pouco de resistencia por ser algo online, mas
+            depois de algumas sessões já estava me sentindo muito segura para
+            trabalhar minhas questões. Ainda estou no processo mas confio muito
+            no profissional que escolhi para me ajudar."
+          </p>
+        </div>
+        <p></p>
+      </section>
+
+      <section class="button">
+        <button><a href=""> Vamos conversar? </a></button>
+      </section>
+
+      <section class="sobre">
+        <div class="part1">
+          <img src="./img/jonas.jpg" alt="" />
+        </div>
+        <div class="part2">
+          <h2 id="sobremim">Sobre mim</h2>
+          <p>
+            Sou psicólogo, formado pela Universidade de Brasília e com Pós
+            graduação em neuropsicologia. Possuo uma sólida experiência clínica
+            que abrange intervenções em casos de crises, depressão, ansiedade,
+            compulsões, violência contra mulheres, bem como acompanhamento
+            psicoterapêutico de indivíduos neurodivergentes. Atualmente atendo
+            na modalidade online e presencial: adolescentes, adultos, idosos e
+            casais.
+          </p>
+        </div>
+      </section>
+
+      <section class="contato">
+        <h2 id="contato">Entre em contato</h2>
+        <div class="contato_img">
+          <a href=""><img src="./img/whats.png" alt="" /></a>
+          <a href=""><img src="./img/email.png" alt="" /></a>
+        </div>
+
+        <div></div>
+      </section>
+    </main>
+
+    <footer>
       <p>
-        "No começo tive um pouco de resistencia por ser algo online, mas depois de algumas sessões já estava me sentindo muito segura para trabalhar minhas questões. Ainda estou no processo mas confio muito no profissional que escolhi para me ajudar."
+        @ Todos os direitos reservdos - Feito por
+        <a href="https://www.linkedin.com/in/eudes-nilton-057ab816a/"
+          >Eudes Nilton</a
+        >
       </p>
-    </div>
-    <p></p>
-  </section>
+    </footer>
 
-  <section class="button">
-    <button><a href="">
-      Vamos conversar?
-    </a></button>
-  </section>
-
-  <section class="sobre">
-   <div class="part1">
-    <img src="./img/jonas.jpg" alt="">
-  </div>
-   <div class="part2"> 
-    <h2 id="sobremim">Sobre mim</h2>
-    <p>
-      Sou psicólogo, formado pela Universidade de Brasília e com Pós graduação em neuropsicologia.  Possuo uma sólida experiência clínica que abrange intervenções em casos de crises, depressão, ansiedade, compulsões, violência contra mulheres, bem como acompanhamento psicoterapêutico de indivíduos neurodivergentes. Atualmente atendo na modalidade online e presencial: adolescentes, adultos, idosos e casais.
-    </p>
-   </div>
-  </section>
-
-  <section class="contato">
-    <h2 id="contato">Entre em contato</h2>
-    <div class="contato_img">
-      <a href=""><img src="./img/whats.png" alt=""></a>
-      <a href=""><img src="./img/email.png" alt=""></a>
-
-    </div>
-    
-    <div>
-
-    </div>
-  </section>
-</main>
-
-  <footer>
-    <p>@ Todos os direitos reservdos - Feito por <a href="https://www.linkedin.com/in/eudes-nilton-057ab816a/">Eudes Nilton</a></p>
-  </footer>
-
-  <script src="./js/script.js"></script>i
-</body>
+    <script src="./js/script.js"></script>
+    i
+  </body>
 </html>

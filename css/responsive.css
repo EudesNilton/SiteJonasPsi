@@ -1,0 +1,113 @@
+@media (min-width: 767px){
+  header{
+    padding: .875rem 2rem;
+  }
+  
+  header .logo{
+    display: flex;
+  }
+  
+  .logo p{
+    visibility: visible;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    color: #2A7C6F;
+  }
+  
+  .apresentacao{
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: .875rem;
+  }
+  .apresentacao_principal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #2A7C6F;
+    width: 70%;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    padding-bottom: 1.8rem;
+    gap: .875rem;
+  }
+  .apresentacao_principal h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+  }
+  
+  .apresentacao_principal p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .apresentacao_principal button{
+    background-color: #fff;
+    color: #2A7C6F;
+    border: 2px solid #2A7C6F;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+  }
+  
+  .apresentacao_principal button:hover{
+    background-color: #2A7C6F;
+    color: #fff;
+  }
+  .apresentacao_img img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .servicos{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .atendimento, .sobre{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .depoimentos{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+  
+  .sobre .part1 img{
+    display: block;
+    width: 360px;
+  }
+  .sobre .part2 h2{
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-bottom: .5rem;
+    text-align: center;
+  }
+
+  footer{
+    justify-content: center;
+  }
+}
