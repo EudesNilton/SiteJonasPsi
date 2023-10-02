@@ -86,6 +86,13 @@
   .depoimentos{
     padding-left: 3rem;
     padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container_depoimentos{
+    margin-top: 20px;
+    width: 250px;
   }
 
   .sobre{
@@ -106,8 +113,285 @@
     padding-bottom: .5rem;
     text-align: center;
   }
+}
 
-  footer{
+@media (min-width: 1024px){
+  *{
+    padding-left: .2rem;
+    padding-right: .2rem;
+  }
+
+  header .menu{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .menu nav a{
+    padding: 0 0.875rem;
+    margin: 0 .2rem;
+    border-radius: 4px;
+  }
+  .menu nav a:hover{
+    background-color: #2A7C6F;
+    color: #EEFAF7;
+  }
+
+  #btn_menu{
+    display: none;
+  }
+
+  header .menu_mobile{
+   display: none;
+  }
+  
+  
+  .logo p{
+    visibility: visible;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    color: #2A7C6F;
+  }
+  
+  .apresentacao{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: flex;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    gap: 8rem;
+  }
+  .apresentacao_principal{
+    color: #2A7C6F;
+    width: 50%;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    padding-bottom: 1.8rem;
+  }
+  .apresentacao_principal h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-bottom: 1.4rem;
+  }
+  
+  .apresentacao_principal p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    padding-bottom: 1.5rem;
+  }
+  .apresentacao_principal button{
+    background-color: #fff;
+    color: #2A7C6F;
+    border: 2px solid #2A7C6F;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+  }
+  
+  .apresentacao_principal button:hover{
+    background-color: #2A7C6F;
+    color: #fff;
+  }
+  .apresentacao_img img{
+    display: flex;
+    align-items: center;
     justify-content: center;
   }
+  
+  .servicos{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  
+  .servicos h2{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-bottom: 1rem;
+  }
+  
+  .servicos p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+  }
+  
+  .button{
+    
+    width: 100%;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .button button{
+    background-color: #2A7C6F;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    border: none;
+  }
+   
+  .button button:hover{
+    background-color: #fff;
+    color: #2A7C6F;
+    border: 2px solid #2A7C6F;
+  }
+  
+  .atendimento{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+
+  .atendimento .container_atendimento{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #EEFAF7;
+    margin: 0;
+    gap: .875rem;
+  }
+  
+  .atendimento h2{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+ 
+  
+  .container_tipo{
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container_tipo img{
+    width: 100%;
+    padding: .875rem;
+  
+  }
+  
+  .container_tipo h3{
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .container_tipo p{
+    text-align: justify;
+    width: 100%;
+    padding: 16px;
+    font-size: 1.05rem;
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+  }
+  
+  .depoimentos{
+    padding: 0.875rem;
+    width: 100%;
+  }
+  .depoimentos h2{
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+  .container_depoimentos{
+    border: 2px solid #2A7C6F;
+    padding: .875rem;
+    text-align: center;
+  }
+  
+  .container_depoimentos h3{
+    font-size: 1.025rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-bottom: .25rem;
+  }
+  
+  .container_depoimentos h4{
+    font-size: .85rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-bottom: .875rem;
+  }
+  
+  .container_depoimentos p{
+    width: 100%;
+    text-align: center;
+    font-size: 1.05rem;
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    padding-bottom: .875rem;
+  }
+
+  .sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 3.2rem;
+  }
+  
+  .sobre .part1 img{
+    display: block;
+    width: 550px;
+    padding: .875rem;
+  }
+  
+  .sobre .part2 h2{
+    font-size: 2rem;
+  }
+  
+  .sobre .part2 p{
+    width: 100%;
+    font-size: 1.3rem;
+  }
+  
+  .contato{
+    padding-bottom: 3rem;
+  }
+  
+  .contato h2{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .contato_img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2.125rem;
+  }
+  
+  .contato_img a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contato_img a img{
+    width: 2.5rem;
+  }
+  
 }

@@ -10,33 +10,100 @@ a{
   color: inherit;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 
 /*mobile first*/
 
 header{
   position: fixed;
   width: 100%;
+  top: 0;
+  left: 0;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: .5rem 1.5rem;
-  background-color: #fff;
+  background-color: #ffffff;
+  z-index: 100;
 }
 
 
 header .menu{
   display: none;
 }
-header .menu_mobile{
- display: flex;
+.menu_mobile{
+  background-color: #EEFAF7;
+  visibility: hidden;
+  position: absolute;
+  top: 85px;
+  left: 0;
+  width: 100%;
+  height: 0px;
+  transition: .6s;
+  display: block;
+  visibility: hidden;
+  overflow-y: hidden;
 }
 
-header .menu_mobile nav{
-  display: none;
+.menu_mobile nav a{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #2A7C6F;
+  display: block;
+  padding: 20px 20px;
+  font-size: 16pt;
+}
+.menu_mobile nav a:hover{
+  background-color: #2A7C6F;
+  color: #EEFAF7;
+}
+header .menu_mobile.abrir{
+ visibility: visible;
+ height: calc(100vh - 85px);
+ overflow-y: auto;
 }
 
-header .menu_mobile .abrir{
+#btn_menu{
   display: flex;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+#hamburger{
+  width: 20px;
+  border-top: 2px solid;
+  display: block;
+  color: #2A7C6F;
+}
+
+#hamburger::after, #hamburger::before{
+  content: '';
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: currentColor;
+  margin-top: 5px;
+  transition: .3s;
+  position: relative;
+}
+
+#btn_menu.ativo #hamburger{
+  border-top-color: transparent;
+}
+
+#btn_menu.ativo #hamburger::after{
+  transform: rotate(-135deg);
+  top: -7px;
+}
+#btn_menu.ativo #hamburger::before{
+  transform: rotate(135deg);
 }
 
 .logo{
@@ -53,7 +120,6 @@ header .menu_mobile .abrir{
 .logo img{
   width: 3.5rem;
 }
-
 .apresentacao{
   padding-top: 8rem;
   display: flex;
@@ -104,6 +170,7 @@ header .menu_mobile .abrir{
 }
 
 .servicos{
+  top: 85px;
   padding-top: 2rem;
   display: flex;
   flex-direction: column;

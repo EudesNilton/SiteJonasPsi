@@ -1,7 +1,7 @@
-const menuDiv = document.getElementById('menu-mobile')
-const btnAnimar = document.getElementById('btn-menu')
+const menuDiv = document.getElementById('menu_mobile')
+const btnAnimar = document.getElementById('btn_menu')
 
-menuDiv. addEventListener('click', animarMenu)
+menuDiv.addEventListener('click', animarMenu)
 
 function animarMenu(){
   menuDiv.classList.toggle('abrir')
